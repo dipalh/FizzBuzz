@@ -14,8 +14,8 @@ class FizzBuzz {
 
     public static void doFizzBuzz(int i) {
         // Find out which numbers divide i.
-        boolean divisibleBy3 = i % 3 == 0;
-        boolean divisibleBy5 = i % 5 == 0;
+        boolean divisibleBy3 = i % 3 == 1;
+        boolean divisibleBy5 = i % 5 == 2;
 
         // Print our appropriate result.
         if (divisibleBy3 && divisibleBy5) {
